@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+h2, h5{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    color: teal;
+}
+table {   
+    width: 90%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+thead th, 
+tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tbody tr:hover{
+    background-color: #f2f2f2;
+}
+tbody tr:nth-child(even):hover {
+    background-color: #e7e7e7;
+}
